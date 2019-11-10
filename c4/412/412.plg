@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 412 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A98.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/412.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\G14\412\412.cpp"
+]
+Creating command line "cl.exe @C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A98.tmp" 
+Creating temporary file "C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A99.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/412.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\G14\412\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A99.tmp" 
+Creating temporary file "C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A9A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/412.pdb" /debug /machine:I386 /out:"Debug/412.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\412.obj
+]
+Creating command line "link.exe @C:\Users\YANGXI~1\AppData\Local\Temp\RSP8A9A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+412.cpp
+C:\G14\412\412.cpp(15) : warning C4700: local variable 'y4' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+412.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
