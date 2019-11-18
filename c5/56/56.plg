@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 56 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenov\AppData\Local\Temp\RSPEC55.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/56.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Õı∫È–¿\56\56.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenov\AppData\Local\Temp\RSPEC55.tmp" 
+Creating temporary file "C:\Users\lenov\AppData\Local\Temp\RSPEC56.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/56.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Õı∫È–¿\56\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenov\AppData\Local\Temp\RSPEC56.tmp" 
+Creating temporary file "C:\Users\lenov\AppData\Local\Temp\RSPEC57.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/56.pdb" /debug /machine:I386 /out:"Debug/56.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\56.obj"
+]
+Creating command line "link.exe @C:\Users\lenov\AppData\Local\Temp\RSPEC57.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+56.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+56.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
