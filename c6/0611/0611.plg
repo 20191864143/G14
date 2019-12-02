@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 0611 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MAN\AppData\Local\Temp\RSP584F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/0611.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\G14\0611\0611.cpp"
+]
+Creating command line "cl.exe @C:\Users\MAN\AppData\Local\Temp\RSP584F.tmp" 
+Creating temporary file "C:\Users\MAN\AppData\Local\Temp\RSP5850.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/0611.pdb" /debug /machine:I386 /out:"Debug/0611.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\0611.obj
+]
+Creating command line "link.exe @C:\Users\MAN\AppData\Local\Temp\RSP5850.tmp"
+<h3>Output Window</h3>
+Compiling...
+0611.cpp
+C:\G14\0611\0611.cpp(8) : warning C4101: 'k' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+0611.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
