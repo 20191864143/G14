@@ -1,34 +1,7 @@
-========================================================================
-       CONSOLE APPLICATION : last
-========================================================================
-
-
-AppWizard has created this last application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your last application.
-
-last.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
-
-last.cpp
-    This is the main application source file.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named last.pch and a precompiled types file named StdAfx.obj.
-
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+使用回车键开始程序
+支持单科录入信息
+支持计算平均分和总分
+支持单人成绩查询
+支持单科和总成绩排序
+支持数据到文件保存和读取
+未能实现批量录入
