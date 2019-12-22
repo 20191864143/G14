@@ -21,15 +21,13 @@ int main(int argc, char* argv[])
 	}
 	return 0;
 }
-int prime(int a)
+int prime(int b )
 {
 	int i;
-	for(i=2;i<a;i++)
+	for(i=2;i<b;i++)
 	{
-		if(a%i==0)
+		if(b%i==0)
 			return 0;
-		else
-			return 2;
 	}
 }
 
